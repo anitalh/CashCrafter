@@ -1,0 +1,47 @@
+.chart-line-income {
+    stroke: green;
+    fill: none;
+    stroke-width: 2;
+  }
+  
+  .chart-line-expense {
+    stroke: red;
+    fill: none;
+    stroke-width: 2;
+  }
+  
+  .chart-circle-income {
+    stroke: green;
+    fill: white;
+    stroke-width: 2;
+  }
+  
+  .chart-circle-expense {
+    stroke: red;
+    fill: white;
+    stroke-width: 2;
+  }
+  
+  .chart-legend-text {
+    font-size: 12px;
+    fill: black;
+  }
+  
+  .chart-legend-box-income {
+    width: 15px;
+    height: 15px;
+    fill: green;
+  }
+  
+  .chart-legend-box-expense {
+    width: 15px;
+    height: 15px;
+    fill: red;
+  }
+  
+  .chart-background {
+    fill: none;
+    stroke: black;
+    stroke-width: 2;
+  }
+  

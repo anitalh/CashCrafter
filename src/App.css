@@ -1,0 +1,65 @@
+#root {
+  margin: 0 auto;
+  padding: 0; 
+  text-align: center;
+  display: flex; 
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  width: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  height: 100%;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.content {
+  display: flex;
+  height: calc(100vh - 40px);
+}
+
+.navbar {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  justify-content: flex-start;
+  overflow-y: auto;
+}
+
+.dashboard-content {
+  width: 70%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 40px); 
+}
+
+.controls {
+  align-self: flex-end;
+}
+
+.add__form {
+  order: 1; 
+  overflow-y: auto;
+}
+
+.content {
+  order: 2;
+  height: auto;
+  flex-grow: 1;
+  overflow-y: auto;
+  max-height: calc(100vh - 40px);
+}
